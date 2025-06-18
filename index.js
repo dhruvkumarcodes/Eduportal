@@ -13,7 +13,7 @@ app.use("/course", courseRouter);
 
 
 async function main() {
-    await Mongoose.connect("mongodb+srv://admin:Dhruvmongo@cluster0.qmq6rup.mongodb.net/eduportal")
+    await Mongoose.connect("")
     app.listen(3000)
     console.log("listening");
 }
